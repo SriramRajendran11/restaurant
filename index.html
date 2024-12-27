@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Restaurant Menu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff5f5;
+    }
+
+    header {
+      background-color: #d32f2f;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .menu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem;
+    }
+
+    .menu-category {
+      margin: 1rem 0;
+      width: 80%;
+      max-width: 600px;
+      border-bottom: 2px solid #d32f2f;
+    }
+
+    .menu-category h2 {
+      color: #d32f2f;
+      margin-bottom: 0.5rem;
+    }
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.5rem 0;
+    }
+
+    .menu-item span {
+      color: #555;
+    }
+
+    footer {
+      background-color: #d32f2f;
+      color: white;
+      text-align: center;
+      padding: 0.5rem;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Red Spice Restaurant</h1>
+  </header>
+
+  <section class="menu">
+    <div class="menu-category">
+      <h2>Appetizers</h2>
+      <div class="menu-item">
+        <span>Spring Rolls</span>
+        <span>$5.99</span>
+      </div>
+      <div class="menu-item">
+        <span>Garlic Bread</span>
+        <span>$4.99</span>
+      </div>
+    </div>
+
+    <div class="menu-category">
+      <h2>Main Courses</h2>
+      <div class="menu-item">
+        <span>Grilled Chicken</span>
+        <span>$12.99</span>
+      </div>
+      <div class="menu-item">
+        <span>Spaghetti Bolognese</span>
+        <span>$10.99</span>
+      </div>
+    </div>
+
+    <div class="menu-category">
+      <h2>Desserts</h2>
+      <div class="menu-item">
+        <span>Chocolate Cake</span>
+        <span>$6.99</span>
+      </div>
+      <div class="menu-item">
+        <span>Ice Cream</span>
+        <span>$4.99</span>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Red Spice Restaurant. All rights reserved.</p>
+  </footer>
+</body>
+</html>
